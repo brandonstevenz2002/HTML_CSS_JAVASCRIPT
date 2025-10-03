@@ -11,8 +11,7 @@ body {
     border: 1px solid #999999;
     background: #DDDDDD;
 
-    -moz-transition: moz-transform 1s ease-in-out 0.5s;
-    -webkit-transition: -webkit-transform 1s ease-in-out 0.5s;
+    
 
     -moz-border-image: url("diamonds.png") 29 stretch;
     -webkit-border-image: url("diamonds.png") 29 stretch;
@@ -31,10 +30,7 @@ body {
     background: radial-gradient(center, circle, #FFFFFF 0%, #006699 200%);
 }
 
-#principal:hover {
-    -moz-transform: rotate(5deg);
-    -webkit-transform: rotate(5deg);
-}
+
 
 #titulo {
     font: bold 36px 'MinuevaFuente', verdana, sans-serif;
